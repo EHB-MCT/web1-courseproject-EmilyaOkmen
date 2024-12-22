@@ -11,6 +11,12 @@ body {
     margin: 0px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center;    
+}
 .banner {
 
     background-color: white;
@@ -96,9 +102,16 @@ font-family: "pacifico", serif;
   
 }
 
-.title2 {
-    grid-column: 1/13;
+.explore {
+    margin-top: 20px;
+   width: 100%;
     background-color: #fb6f93;
+    padding: 10px 20px;
     text-align: center;
 }
 
+.explore h2 {
+    color: white;
+    font-size: 30px;
+    font-family: "pacifico", serif;
+}
