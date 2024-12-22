@@ -147,7 +147,7 @@ font-family: "pacifico", serif;
 
 
 .hellokittyeducation img {
-    margin-left: 600px;
+    margin-left: 610px;
     width: 20%;
     border-radius: 10px;
 
@@ -205,6 +205,15 @@ text-align: center;
 
 }
 
+.skills h5{
+    text-align: center;
+    margin-top: 600px;
+    font-family: "pacifico";
+    align-self: flex-start;
+    font-size: 40px;
+    color: black;
+}
+
 .skills p {
     font-family: "Fraunces";
     font-size: 15px;
@@ -220,20 +229,46 @@ text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 }
-.skills h5{
-    text-align: center;
-    margin-top: 600px;
-    font-family: "pacifico";
-    align-self: flex-start;
-    font-size: 40px;
-    color: black;
 
-
-}
 .hellokittyworking img {
     margin-right: 800px;
     margin-top: 700px;
     width: 60%;
+    border-radius: 10px;
+
+}
+.experiences h6{
+    margin-right: 400px;
+    margin-top: 1100px;
+    text-align: center;
+    font-family: "pacifico";
+    font-size: 40px;
+    color: black;
+}
+
+.experiences p {
+    font-family: "Fraunces";
+    font-size: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 700px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.hellokittyexperience img {
+
+    margin-right: 800px;
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 40%;
     border-radius: 10px;
 
 }
