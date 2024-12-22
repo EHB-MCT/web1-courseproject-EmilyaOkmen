@@ -196,3 +196,44 @@ text-align: center;
     border-radius: 10px;
     margin-left: 600px;
 }
+.bannerskills {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.skills p {
+    font-family: "Fraunces";
+    font-size: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.skills h5{
+    text-align: center;
+    margin-top: 600px;
+    font-family: "pacifico";
+    align-self: flex-start;
+    font-size: 40px;
+    color: black;
+
+
+}
+.hellokittyworking img {
+    margin-right: 800px;
+    margin-top: 700px;
+    width: 60%;
+    border-radius: 10px;
+
+}
