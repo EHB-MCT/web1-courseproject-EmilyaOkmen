@@ -201,7 +201,6 @@ p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-    transition: transform 0.3s ease;
 }
 .skills-img {
     width: 100%;
@@ -352,8 +351,6 @@ p {
     height: 600px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
 }
 
 .missions-item p {
@@ -366,5 +363,4 @@ p {
     height: 100%;
     object-fit: contain;
     border-radius: 10px;
-    transition: opacity 0.3s ease;
 }
