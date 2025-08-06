@@ -23,7 +23,7 @@ header {
 }
 
 
-.nav a {
+.nav a{
     font-family: Merriweather;
     text-decoration: none;
     color: white;
@@ -34,6 +34,11 @@ header {
     background-color: #290344;
     margin-right: 50px;
     
+}
+
+.nav a:hover {
+color: purple;
+  transition: 1s;
 }
 
 p {
