@@ -389,92 +389,105 @@ p {
     border-radius: 10px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
 
-    header {
-        flex-direction: column;
-        padding: 10px;
-    }
+  .logo-container img {
+    width: 7rem;
+    margin-bottom: 10px;
+  }
 
-    .logo-container img {
-        width: 8rem;
-    }
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .nav {
-        flex-direction: column;
-        width: 100%;
-    }
+  .nav a {
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
 
-    .nav a {
-        margin: 10px 0;
-        padding: 10px;
-        font-size: 1.1rem;
-        text-align: center;
-        border-radius: 10px;
-        margin-right: 0;
-    }
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
 
-    .grid {
-        grid-template-columns: 1fr;
-        padding: 10px;
-    }
+  .intro-text {
+    height: auto;
+    margin-top: 10px;
+  }
 
-    .skills-section {
-        flex-direction: column;
-        padding: 10px;
-    }
+  .skills-section {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
 
-   .intro-text,
-    .skills-content {
-        padding: 15px 10px;
-        max-width: 100%;
-    }
+  .skills-image img {
+    width: 100%;
+  }
 
-    .missions-grid {
-        grid-template-columns: 1fr;
-        padding: 10px;
-        gap: 15px;
-    }
+  .skills-content {
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
 
-    .missions-item {
-        min-height: auto;
-        height: auto;
-        padding: 15px;
-    }
+  .skills-content h2 {
+    font-size: 2rem;
+  }
+
+  .skills-content p {
+    font-size: 1em;
+  }
+
+  .skills-button {
+    padding: 8px 16px;
+    font-size: 1em;
+  }
+
+  .intro-skills h1 {
+    font-size: 2rem;
+  }
+
+  .intro-skills p {
+    font-size: 1em;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .missions-section,
+  .missions-intro {
+    padding: 20px 10px;
+  }
+
+  .missions-section h2,
+  .missions-intro h2 {
+    font-size: 2rem;
+  }
+
+  .missions-section p,
+  .missions-intro p {
+    font-size: 1em;
+  }
+
+  .missions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .missions-item {
+    height: auto;
+  }
+
+  .missions-item p {
+    font-size: 1.5em;
+  }
 }
-
-    .skills-image img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    .skills-content {
-        max-width: 100%;
-        text-align: center;
-        padding: 0 10px;
-    }
-
-    .missions-item {
-        height: auto;
-        min-height: 300px;
-    }
-
-    .intro-text {
-        height: auto;
-    }
-
-    .skills-grid {
-        grid-template-columns: 1fr;
-        padding: 10px;
-    }
-
-    .missions-section {
-        padding: 20px 10px;
-    }
-
-    .missions-intro {
-        padding: 20px 10px;
-        margin-top: 20px;
-    }
