@@ -219,3 +219,147 @@ p {
     color: #290344;
     margin: 15px 0;
 }
+.missions-section h2{
+    font-family: pirata one;
+    color:white;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.missions-section {
+    background-color:#290344;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    grid-column: span 2;
+}
+
+.missions-section p {
+    font-family: Merriweather; 
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 20px;
+   
+}
+.missions-section .missions-button {
+    font-family: Merriweather;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#9F27F5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    
+}
+
+.intro-skills {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro-skills h1 {
+       font-family: pirata one;
+    font-size: 3rem;
+    color:purple;
+ 
+}
+
+.intro-skills p {
+    font-family: Merriweather;
+    font-size: 1.2em;
+    color: black;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    background-color: #E1BBFC;
+    grid-template-rows: auto;
+}
+.skills-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.skills-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.skills-info {
+    padding: 20px;
+}
+
+.skills-info h2 {
+    font-family: pirata one;
+    font-size: 1.8em;
+    color: #290344;
+}
+.skills-info p {
+    font-family: Merriweather;
+    font-size: 1.1em;
+    color: #290344;
+    margin: 15px 0;
+}
+
+.missions-intro {
+    background-color: #E1BBFC;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.missions-intro h2 {
+    font-size: 2.8em;
+    font-family: pirata one;
+    margin-bottom: 20px;
+}
+
+.missions-intro p {
+    font-family: Merriweather;
+    font-size: 1.3em;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.missions-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.missions-item {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.missions-item p {
+    font-family: pirata one;
+    color: purple;
+    font-size: 30px;
+}
+.misions-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+}
